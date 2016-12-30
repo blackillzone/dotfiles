@@ -10,7 +10,6 @@ build@0.67.0
 build-dockerfile@1.0.1
 busy@0.7.0
 docker@0.7.0
-dockerletion-master@0.2.0
 file-icons@1.7.25
 git-plus@7.0.3
 git-status@0.3.4
@@ -47,7 +46,6 @@ minimap-git-diff@4.3.1
 minimap-highlight-selected@4.4.0
 minimap-linter@1.6.0
 minimap-selection@4.4.0
-move-panes@0.2.0
 script-runner@2.0.1
 seti-ui@1.4.0
 xml-formatter@0.10.0
