@@ -1,0 +1,59 @@
+"*":
+  "asciidoc-preview":
+    forceExperimental: true
+    skipFrontMatter: true
+  build: {}
+  core:
+    disabledPackages: [
+      "atom-beautify"
+      "atom-beautify"
+    ]
+    packagesWithKeymapsDisabled: [
+      "build-dockerfile"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "ariake-dark-syntax"
+    ]
+  editor:
+    fontSize: 11
+    invisibles: {}
+  "exception-reporting":
+    userId: "13255a9c-9c4c-0995-0706-ab379d9042fa"
+  "git-plus":
+    general:
+      _analyticsUserId: "62cfcdc4-a2a3-4f7c-8a65-49125f6fc91b"
+  "git-status": {}
+  linter:
+    errorPanelHeight: 84
+  "linter-docker": {}
+  "linter-puppet-lint":
+    oldVersion: false
+  "linter-shellcheck": {}
+  "linter-write-good":
+    additionalArgs: "--no-passive"
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "seti-ui": {}
+  "spell-check": {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  welcome:
+    showOnStartup: false
