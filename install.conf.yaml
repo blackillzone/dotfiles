@@ -18,6 +18,7 @@
     ~/.atom/styles.less: atom/styles.less
     ~/.config/omf/theme: config/omf/theme
     ~/.config/omf/bundle: config/omf/bundle
+    ~/.gitconfig: gitconfig
     #~/.config/fontconfig/conf.d/10-powerline-symbols.conf: config/fontconfig/conf.d/10-powerline-symbols.conf
     #~/.fonts/PowerlineSymbols.otf: fonts/PowerlineSymbols.otf
     
