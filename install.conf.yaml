@@ -7,9 +7,9 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.config/fish/config.fish: config/fish/config.fish
-    ~/.config/fish/conf.d/omf.fish: config/fish/conf.d/omf.fish
-    ~/.config/fish/functions/sudo-my-prompt-yo.fish: config/fish/functions/sudo-my-prompt-yo.fish
+    #~/.config/fish/config.fish: config/fish/config.fish
+    #~/.config/fish/conf.d/omf.fish: config/fish/conf.d/omf.fish
+    #~/.config/fish/functions/sudo-my-prompt-yo.fish: config/fish/functions/sudo-my-prompt-yo.fish
     ~/.atom/config.cson: atom/config.cson
     ~/.atom/init.coffee: atom/init.coffee
     ~/.atom/keymap.cson: atom/keymap.cson
@@ -18,10 +18,10 @@
     ~/.atom/styles.less: atom/styles.less
     ~/.config/omf/theme: config/omf/theme
     ~/.config/omf/bundle: config/omf/bundle
-    ~/.config/fontconfig/conf.d/10-powerline-symbols.conf: config/fontconfig/conf.d/10-powerline-symbols.conf
-    ~/.fonts/PowerlineSymbols.otf: fonts/PowerlineSymbols.otf
+    #~/.config/fontconfig/conf.d/10-powerline-symbols.conf: config/fontconfig/conf.d/10-powerline-symbols.conf
+    #~/.fonts/PowerlineSymbols.otf: fonts/PowerlineSymbols.otf
     
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   #- [apm install --packages-file atom/package-list.txt, Installing atom packages]
-  - [fc-cache -vf ~/.fonts/, Updating font cache]
+  #- [fc-cache -vf ~/.fonts/, Updating font cache]
