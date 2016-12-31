@@ -9,7 +9,7 @@
     ~/.dotfiles: ''
     #~/.config/fish/config.fish: config/fish/config.fish
     #~/.config/fish/conf.d/omf.fish: config/fish/conf.d/omf.fish
-    #~/.config/fish/functions/sudo-my-prompt-yo.fish: config/fish/functions/sudo-my-prompt-yo.fish
+    ~/.config/fish/functions/sudo-my-prompt-yo.fish: config/fish/functions/sudo-my-prompt-yo.fish
     ~/.atom/config.cson: atom/config.cson
     ~/.atom/init.coffee: atom/init.coffee
     ~/.atom/keymap.cson: atom/keymap.cson
@@ -18,6 +18,7 @@
     ~/.atom/styles.less: atom/styles.less
     ~/.config/omf/theme: config/omf/theme
     ~/.config/omf/bundle: config/omf/bundle
+    ~/.config/omf/init.fish: config/omf/init.fish
     ~/.gitconfig: gitconfig
     #~/.config/fontconfig/conf.d/10-powerline-symbols.conf: config/fontconfig/conf.d/10-powerline-symbols.conf
     #~/.fonts/PowerlineSymbols.otf: fonts/PowerlineSymbols.otf
