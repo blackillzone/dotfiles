@@ -12,13 +12,10 @@
       "build-dockerfile"
     ]
     telemetryConsent: "limited"
-    themes: [
-      "one-dark-ui"
-      "ariake-dark-syntax"
-    ]
   editor:
     fontSize: 11
     invisibles: {}
+    showIndentGuide: true
   "exception-reporting":
     userId: "13255a9c-9c4c-0995-0706-ab379d9042fa"
   "git-plus":
@@ -30,6 +27,8 @@
   "linter-docker": {}
   "linter-puppet-lint":
     oldVersion: false
+  "linter-python":
+    withPylint: true
   "linter-shellcheck": {}
   "linter-write-good":
     additionalArgs: "--no-passive"
@@ -43,6 +42,8 @@
       "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
       "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
       linter: true
       linterDecorationsZIndex: 0
       selection: true
@@ -57,3 +58,4 @@
     syncHorizontalScroll: true
   welcome:
     showOnStartup: false
+  whitespace: {}

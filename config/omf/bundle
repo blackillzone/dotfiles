@@ -1,3 +1,5 @@
+package apt
+package battery
 package grc
 theme bobthefish
 theme default

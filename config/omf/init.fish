@@ -8,6 +8,10 @@ set -g theme_title_display_path no
 set -g theme_powerline_fonts no
 #set -g theme_nerd_fonts yes
 
+#set env
+set -x GOPATH /home/fdhaussy/go
+set PATH /home/fdhaussy/go/bin $PATH
+
 # Aliases
 alias ll="ls --human-readable -la"
 alias push="git push"
