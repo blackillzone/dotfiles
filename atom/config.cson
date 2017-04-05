@@ -3,6 +3,50 @@
     forceExperimental: true
     skipFrontMatter: true
   build: {}
+  "cmd-exec":
+    commands: [
+      {
+        target: [
+          "atom-workspace"
+        ]
+        data:
+          "console:bash":
+            type: "spawn"
+            path: "bash"
+            console: true
+            utils: [
+              "clear"
+              "alert"
+              "error"
+              "write"
+              "stdin"
+              "environ"
+              "beep"
+              "start"
+              "execute"
+              "popup"
+            ]
+            closeOnExit: true
+          "molecule:converge":
+            type: "spawn"
+            useJSTemplateString: true
+            path: "sudo molecule converge"
+            console: true
+            paneItemPosition: "right"
+          "molecule:verify":
+            type: "spawn"
+            useJSTemplateString: true
+            path: "sudo molecule verify"
+            console: true
+            paneItemPosition: "right"
+          "molecule:test":
+            type: "spawn"
+            useJSTemplateString: true
+            path: "sudo molecule test"
+            console: true
+            paneItemPosition: "right"
+      }
+    ]
   core:
     disabledPackages: [
       "atom-beautify"
@@ -25,6 +69,8 @@
   linter:
     errorPanelHeight: 84
   "linter-docker": {}
+  "linter-haproxy":
+    executablePath: "/home/fdhaussy/go/bin/haproxy-lint"
   "linter-puppet-lint":
     oldVersion: false
   "linter-python":

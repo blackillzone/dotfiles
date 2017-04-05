@@ -10,7 +10,9 @@ set -g theme_powerline_fonts no
 
 #set env
 set -x GOPATH /home/fdhaussy/go
-set PATH /home/fdhaussy/go/bin $PATH
+set -x LOCALBIN /home/fdhaussy/bin
+set -x POSTMANPTAH $LOCALBIN/postman
+set PATH $GOPATH/bin $LOCALBIN $POSTMANPTAH $PATH
 
 # Aliases
 alias ll="ls --human-readable -la"
